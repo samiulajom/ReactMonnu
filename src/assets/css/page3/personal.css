@@ -1,0 +1,12 @@
+/* mu-person start */
+.mu-profile h2 {
+  font-size: 36px;
+}
+.mu-profile a {
+  font-size: 14px;
+  color: #49dc87;
+}
+.mu-profile a:hover {
+  color: #f31e5e;
+}
+/* mu-person end */

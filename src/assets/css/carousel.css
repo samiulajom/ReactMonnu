@@ -1,0 +1,9 @@
+.mu-brand {
+  background: #171c43;
+}
+.mu-brand-items .owl-stage .active:not(.center) {
+  opacity: 0.3;
+}
+.mu-brand-items .owl-stage .active .center {
+  opacity: 1;
+}

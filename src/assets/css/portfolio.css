@@ -1,0 +1,132 @@
+/* mu-portfolio section start */
+
+.mu-portfolio {
+  background: var(--maintheme);
+}
+.mu-port-header p {
+  font-size: 16px;
+  color: var(--sortcolor);
+}
+.mu-port-header h1 {
+  font-size: 48px;
+}
+.mu-port-nav a {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--sortcolor);
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  padding: 5px 10px;
+  margin: 10px;
+}
+.mu-port-nav a:hover {
+  color: var(--secondColor);
+}
+
+/*! port image */
+
+.mu-port-img {
+   width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center;
+    margin: 0 auto; */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; */
+}
+
+.mu-port-img > div {
+  flex-basis: 335px;
+  height: 335px;
+  flex-grow: 3;
+  text-align: center;
+  position: relative;
+  background: rgb(32, 36, 74);
+  /* margin: 0;
+    padding: 0; */
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+
+.portfolio-item img {
+  width: 335px;
+  height: 335px;
+  flex-grow: 3;
+}
+.portfolio-item:hover img {
+  opacity: 0.1;
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+}
+/* Background overlay */
+
+/* Overlay text */
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.overlay-2 {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 2;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+}
+.overlay-2 span {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--secondColor);
+}
+.portfolio-item:hover .overlay {
+  opacity: 1;
+}
+.portfolio-item:hover .overlay-2 {
+  opacity: 1;
+}
+.portfolio-btn a {
+  background-color: var(--maincolor);
+  font-size: 14px;
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+}
+.portfolio-btn a:hover {
+  background-color: var(--secondColor);
+}
+
+
+

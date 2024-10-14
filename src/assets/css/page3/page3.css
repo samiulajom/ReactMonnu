@@ -1,0 +1,11 @@
+
+.page3 .mu-banner{
+  background: var(--maintheme);
+}
+.mu-article{
+  background: var(--maintheme);
+}
+.page3 .mu-banner-img::before {
+  content: "Blog Details";
+
+}

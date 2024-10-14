@@ -1,0 +1,13 @@
+/* qutation start */
+.mu-qutation {
+  background: #171c43;
+}
+.mu-qutation div {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(13, 17, 53);
+}
+.mu-qutation img {
+  width: 40px;
+}
+/*qutaion end */

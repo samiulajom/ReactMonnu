@@ -1,0 +1,24 @@
+.tag-logo ul li {
+  width: 50px;
+  height: 50px;
+  background-color: #171c43;
+}
+.tag-logo ul li:hover {
+  background-color: var(--secondColor);
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.tag-logo ul li a {
+  color: #fff;
+}
+.tag-logo ul li:hover a {
+  color: rgb(13, 17, 53);
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}

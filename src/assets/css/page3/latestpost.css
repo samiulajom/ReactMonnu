@@ -1,0 +1,59 @@
+/* latest post start */
+.latest-post {
+  background: #171c43;
+}
+.latest-post h2 {
+  font-size: 22px;
+}
+
+.lastestpost-item span {
+  width: 70px;
+  height: 72px;
+  background-color: var(--secondColor);
+  position: relative;
+}
+.lastestpost-item span::before {
+  content: url(../../image/page3/rightarrow.png);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.lastestpost-item:hover span::before {
+  opacity: 1;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.lastestpost-item img {
+  width: 70px;
+  height: 72px;
+}
+.lastestpost-item:hover img {
+  cursor: pointer;
+  opacity: 0.1;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+/* .lastestpost-item p {
+  font-size: 16px;
+  color: #898da9;
+  margin-bottom: 10px;
+} */
+.lastestpost-item p::before {
+  content: url(../../image//page3//watch.png);
+  align-items: center;
+  margin-right: 5px;
+}
+/* .lastestpost-item h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+} */
+/* latest post end */

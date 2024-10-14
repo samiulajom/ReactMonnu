@@ -1,0 +1,66 @@
+.mu-heroParent {
+  margin-top: 60px;
+  background: var(--maintheme);
+  z-index: 1;
+}
+
+.star-shape {
+  top: 15%;
+}
+.hero-shape {
+  top: 15%;
+  right: 10%;
+}
+.scrollMouse {
+  top: 95%;
+}
+.moon-shape {
+  right: 15%;
+  bottom: 5%;
+}
+.central-area h2 {
+  font-size: 140px;
+  font-weight: 700;
+}
+.central-area h2:first-child {
+  right: 90%;
+  top: 15%;
+}
+.central-area h2:last-child {
+  top: 50%;
+}
+.mu-hero-bottom .email{
+  font-size: 14px;
+}
+@media (max-width: 1024px) {
+  .central-area h2 {
+    font-size: 120px;
+  }
+}
+@media (max-width: 992px) {
+  .central-area h2 {
+    font-size: 70px;
+  }
+  .mu-heroParent {
+    margin-top: 60px;
+  }
+
+  .moon-shape,
+  .hero-shap,
+  .star-shape {
+    width: 10%;
+  }
+  .scrollMouse {
+    top: 85%;
+  }
+}
+
+@media (max-width: 576px) {
+  .central-area h2 {
+    font-size: 30px;
+  }
+
+  .mu-hero-bottom .email{
+    font-size: 10px;
+  }
+}

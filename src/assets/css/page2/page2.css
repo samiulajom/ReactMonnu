@@ -1,0 +1,14 @@
+.page2 .mu-contact {
+  background-color: var(--maintheme);
+}
+.page2 footer{
+    background: var(--maintheme);
+}
+.page2 .mu-footer{
+    background: #171c43;
+    border-radius: 50% 49% 0% 0% / 85% 85% 0% 0% ;
+    -webkit-border-radius: 50% 49% 0% 0% / 85% 85% 0% 0% ;
+    -moz-border-radius: 50% 49% 0% 0% / 85% 85% 0% 0% ;
+    -ms-border-radius: 50% 49% 0% 0% / 85% 85% 0% 0% ;
+    -o-border-radius: 50% 49% 0% 0% / 85% 85% 0% 0% ;
+  }

@@ -1,0 +1,71 @@
+/* footer start */
+footer {
+  /*background: #171c43;
+  */ /*background-image: url(../image/footer/footer_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  */
+  padding: 70px 0 0;
+  background: #171c43;
+}
+.mu-footer {
+  background: var(--maintheme);
+  border-radius: 50% 50% 0% 0% / 35% 35% 0% 0%;
+  -webkit-border-radius: 50% 49% 0% 0% / 85% 85% 0% 0%;
+  -moz-border-radius: 50% 49% 0% 0% / 85% 85% 0% 0%;
+  -ms-border-radius: 50% 49% 0% 0% / 85% 85% 0% 0%;
+  -o-border-radius: 50% 49% 0% 0% / 85% 85% 0% 0%;
+}
+footer p {
+  font-size: 16px;
+  color: var(--sortcolor);
+}
+footer h2 {
+  font-size: 48px;
+  background: linear-gradient(
+    to right,
+    var(--secondColor) 0%,
+    var(--maincolor) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer-email-img {
+  width: 70px;
+  height: 70px;
+}
+.footer-email h3 {
+  font-size: 26px;
+}
+.footer-nav ul {
+  padding-bottom: 30px;
+  margin-bottom: 0;
+}
+
+.footer-nav a:hover {
+  background: #49dc87;
+  background: linear-gradient(
+    to right,
+    var(--secondColor) 0%,
+    var(--maincolor) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+/* footer end */
+/* Resposnsive start */
+@media (max-width: 556px) {
+  .mu-footer {
+    border-radius: 50% 50% 0% 0% / 35% 35% 0% 0%;
+    -webkit-border-radius: 50% 50% 0% 0% / 35% 35% 0% 0%;
+    -moz-border-radius: 50% 50% 0% 0% / 35% 35% 0% 0%;
+    -ms-border-radius: 50% 50% 0% 0% / 35% 35% 0% 0%;
+    -o-border-radius: 50% 50% 0% 0% / 35% 35% 0% 0%;
+  }
+}

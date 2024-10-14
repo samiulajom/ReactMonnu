@@ -1,0 +1,49 @@
+/* mu-axi start */
+.mu-axi {
+  background: #171c43;
+}
+.mu-axi-catagory {
+  height: 100px;
+  width: 90%;
+  /* padding: 20px 40px !important; */
+}
+
+.mu-axi .col-3 p {
+  font-size: 14px;
+}
+.mu-axi .col-3 h1 {
+  font-size: 18px;
+  margin-top: -10px;
+}
+
+.mu-axi-logo ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mu-axi-logo ul li {
+  width: 40px;
+  height: 40px;
+}
+
+.facebook {
+  background-color: #4661c5;
+}
+.twitter {
+  background-color: #1da1f2;
+}
+.ingstragram {
+  background-color: #ff2e2e;
+}
+.linkin {
+  background-color: #0073b0;
+}
+.mu-axi-logo ul li:hover {
+  background-color: green;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+/* mu-axi end */

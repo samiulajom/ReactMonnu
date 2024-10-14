@@ -1,0 +1,56 @@
+/* mu-blog section start  */
+.mu-blog {
+  background: #171c43;
+}
+
+.mu-blog-header p,
+.mu-contact-header p {
+  font-size: 16px;
+  color: var(--sortcolor);
+}
+.mu-blog-header h2 {
+  font-size: 48px;
+}
+
+.mu-blog .card-body {
+  border: 1px solid #303032;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+}
+.mu-blog .card .mu-card-img {
+  background: var(--maincolor);
+}
+
+.centered {
+  font-size: 48px;
+  font-weight: 200;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.mu-blog .card:hover .centered {
+  opacity: 1;
+}
+.mu-blog .card:hover img {
+  opacity: 0.2;
+  transition: all 0.3s linear;
+}
+.mu-blog .card-title {
+  font-size: 20px;
+}
+.mu-blog .card-text {
+  font-size: 16px;
+  color: var(--sortcolor);
+}
+.mu-blog .card-body a {
+  font-size: 14px;
+  color: #fff;
+}
+
+.mu-blog .card a:hover {
+  color: #f31e5e;
+  transition: all 0.3s linear;
+}
+/* mu-blog end */

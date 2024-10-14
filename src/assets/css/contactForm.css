@@ -1,0 +1,48 @@
+/* form start */
+
+.mu-form-info label,
+.message label {
+  font-size: 18px;
+}
+
+.mu-form-info input {
+  height: 50px;
+  background-color: rgb(13, 17, 53);
+  outline: none;
+  color: var(--secondColor);
+}
+.mu-form-info input::placeholder {
+  font-size: 15px;
+  color: var(--sortcolor);
+  text-transform: capitalize;
+}
+.message textarea {
+  height: 150px;
+  padding: 20px;
+  background-color: rgb(13, 17, 53);
+  outline: none;
+  margin-bottom: 10px;
+  color: var(--secondColor);
+}
+.message textarea::placeholder {
+  font-size: 15px;
+  color: var(--sortcolor);
+  text-transform: capitalize;
+}
+.submit-btn {
+  font-size: 14px;
+  color: #fff;
+  background: var(--maincolor);
+  outline: none;
+}
+.submit-btn:hover {
+  background: var(--secondColor);
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.submit-btn:focus {
+  background: purple;
+}

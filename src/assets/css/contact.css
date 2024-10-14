@@ -1,0 +1,45 @@
+/* contact section start */
+.mu-contact {
+  background: #171c43;
+  padding-bottom: 100px;
+}
+
+.mu-contact-header h2 {
+  font-size: 48px;
+}
+.contact {
+  display: flex;
+}
+.mu-contact-header p:first-child {
+  font-size: 16px;
+}
+
+.mini-cap {
+  font-size: 16px;
+  color: var(--sortcolor);
+}
+.contact .contact-icon {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #303032;
+  color: var(--secondColor);
+}
+.contact .contact-icon:hover {
+  background: var(--secondColor);
+  color: rgb(13, 17, 53);
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.contact h3 {
+  font-size: 18px;
+}
+.contact p {
+  font-size: 15px;
+  color: var(--sortcolor);
+}
+
+
+/* contact section end */

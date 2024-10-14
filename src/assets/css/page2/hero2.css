@@ -1,0 +1,30 @@
+/* banner start  */
+.mu-banner {
+  background: #171c43;
+  padding: 70px 0;
+}
+.mu-banner-img {
+  position: relative;
+}
+.mu-banner-img::before {
+  position: absolute;
+  content: "Service Details";
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: bold;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+/* banner end */
+@media (max-width: 576px) {
+  .mu-banner-img::before {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

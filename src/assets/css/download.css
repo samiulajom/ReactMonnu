@@ -1,0 +1,79 @@
+.mu-download {
+  background: var(--maintheme);
+}
+.mu-download .container {
+  position: relative;
+}
+.mu-download .container::after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  z-index: 1;
+  background-image: url("./../image/download/laptop.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mu-down-left {
+  z-index: 99;
+}
+.mu-down-left h1 {
+  font-size: 60px;
+  line-height: 70px;
+}
+.mu-down-left ul li p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: var(--sortcolor);
+}
+.mu-down-left span {
+  color: var(--secondColor);
+}
+.down-btn {
+  background-color: var(--maincolor);
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.down-btn:hover {
+  background-color: var(--secondColor);
+  color: var(--maincolor);
+}
+
+.mu-line {
+  height: 100%;
+  border: 1px solid #898da9;
+  opacity: 0.3;
+  position: absolute;
+  z-index: 10;
+}
+.line-1 {
+  left: 5%;
+}
+.line-2 {
+  left: 50%;
+}
+.line-3 {
+  right: 20%;
+}
+@media (max-width: 992px) {
+  .mu-down-left h1 {
+    font-size: 25px;
+    line-height:30px;
+  }
+ 
+}
+@media (max-width: 576px) {
+  .mu-download .container::after {
+    width: 100%;
+  }
+  .mu-down-left h2{
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,14 @@
+/* mu-challenge start */
+.mu-challenge {
+  background: #171c43;
+}
+
+.mu-challenge p {
+  color: var(--sortcolor);
+}
+
+.mu-challenge-right div img {
+  height: 50px;
+  width: 50px;
+}
+/* mu-challenge end */

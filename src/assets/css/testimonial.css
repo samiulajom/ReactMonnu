@@ -1,0 +1,116 @@
+/* mu-testimonial start */
+.mu-testimonial {
+  background-color: rgb(9, 14, 56);
+}
+.testimonial-header p {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--sortcolor);
+}
+.testimonial-header h2 {
+  font-size: 48px;
+}
+.testimonial-carousel {
+  border: 1px solid var(--sortcolor);
+  padding: 80px 20px;
+}
+.testimonial-carousel p {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+/* Center the carousel indicators (images) above the carousel */
+/*!! my style */
+.carousel-indicators {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-indicators button {
+  background: none;
+  border: none;
+  outline: none;
+  position: relative;
+}
+
+.carousel-indicators button span {
+  position: relative;
+}
+.carousel-indicators img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #898da9;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 0;
+  margin-left: 0;
+  margin-top: 10px;
+  margin-left: -123px;
+}
+
+/* Active button style */
+.carousel-indicators .active img {
+  border-color: #fff;
+}
+.testimonial-carousel {
+  position: relative;
+}
+
+.carouser-corner-image img {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(20%, 30%);
+  -webkit-transform: translate(20%, 30%);
+  -moz-transform: translate(20%, 30%);
+  -ms-transform: translate(20%, 30%);
+  -o-transform: translate(20%, 30%);
+}
+
+/*! my style end */
+
+.carousel-indicators [data-bs-target] {
+  text-indent: 0;
+  width: auto;
+  height: auto;
+  padding: 5px 20px;
+  background: var(--maintheme);
+  border: 1px solid #898da9;
+  margin: 0 3%;
+}
+.carousel-indicators .active {
+  border: 1px solid green;
+}
+.carousel-indicators button img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #898da9;
+  position: absolute;
+  top: 14%;
+  left: -3%;
+  right: 0;
+}
+/* testimonial end */
+@media (max-width: 991px) {
+  .carousel-indicators [data-bs-target] {
+    padding: 60px 5px 0;
+  }
+  .carousel-indicators img {
+    margin-left: -20px;
+    margin-top: -65px;
+  }
+}
+
+@media (max-width: 576px) {
+  .testimonial-carousel p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+}

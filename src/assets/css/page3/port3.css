@@ -1,0 +1,4 @@
+.port-head p::before {
+    content: url(../../image/page3/rightmark.png);
+    margin: 0 10px;
+  }

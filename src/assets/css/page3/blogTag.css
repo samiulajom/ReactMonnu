@@ -1,0 +1,27 @@
+/* mu-side-tag start */
+.mu-side-tag {
+  background: #171c43;
+}
+.mu-side-tag h2 {
+  font-size: 22px;
+}
+.mu-side-tag ul {
+  margin-left: -30px;
+}
+.mu-side-tag ul li a {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: var(--sortcolor);
+  background-color: rgb(13, 17, 53);
+  padding: 10px 15px;
+}
+.mu-side-tag ul li a:hover {
+  background-color: #49dc87;
+  color: rgb(13, 17, 53);
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+/* mu-side-tag end */

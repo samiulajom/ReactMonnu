@@ -1,0 +1,58 @@
+/* skill section start */
+.mu-skill {
+  background: var(--maintheme);
+}
+.mu-skill h2 {
+  font-size: 36px;
+}
+.skill-line {
+  position: absolute;
+  height: 200px;
+  border-left: 3px solid #898da9;
+  z-index: 10;
+  margin-left: 10px;
+  margin-top: 22px;
+}
+.skill-part1 {
+  height: 250px;
+  z-index: 1;
+  direction: rtl;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #fff #262629;
+}
+.skill-part1::-webkit-scrollbar {
+  height: 2px;
+}
+.skill-part1::-webkit-scrollbar-track {
+  height: 10px;
+  background-clip: padding-box;
+}
+
+.skill-part1 ul {
+  direction: ltr;
+  background: rgba(34, 39, 76, 0.8);
+  padding: 30px;
+}
+.skill-part1 ul li {
+  margin-top: 30px;
+}
+.skill-part1 p {
+  font-size: 16px;
+  color:var(--sortcolor);
+}
+.skill-part1 h3 {
+  font-size: 22px;
+}
+.skill-part1 span {
+  color: var(--secondColor);
+}
+.skill-part2 {
+  /* width: 45%; */
+  /* margin: 20px auto; */
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* skill section end */

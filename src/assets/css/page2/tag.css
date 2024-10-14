@@ -1,0 +1,58 @@
+/* mu-tag start */
+
+.mu-tag {
+  background: #171c43;
+}
+
+.mu-tag-carousel h3 {
+  font-size: 18px;
+}
+.mu-tag-carousel p {
+  font-size: 16px;
+  color: var(--sortcolor);
+}
+
+.tag-img {
+  width: 90px;
+  height: 90px;
+  background-color: var(--secondColor);
+  position: relative;
+  cursor: pointer;
+}
+
+.tag-previous::before {
+  content: url(./../../image/page2/left-arrow.png);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.tag-next::before {
+  content: url(./../../image/page2/left-arrow.png);
+  transform: rotate(180deg);
+  position: absolute;
+  left: 40%;
+  top: 35%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+.tag-previous:hover::before,
+.tag-next:hover::before {
+  opacity: 1;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.tag-img:hover img {
+  opacity: 0.3;
+}
+
+/* mu-tag end */

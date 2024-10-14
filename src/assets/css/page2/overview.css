@@ -1,0 +1,13 @@
+/* overview start */
+.mu-overview {
+  background: #171c43;
+}
+.mu-overview h2{
+    font-size: 48px;
+}
+.mu-overview p {
+  font-size: 15px;
+  color:var(--sortcolor);
+  padding: 20px 0;
+}
+/* overview end */

@@ -1,0 +1,67 @@
+/* mu-desinger start*/
+.mu-designer {
+  background: var(--maintheme);
+  padding: 10% 10% 0% 10%;
+}
+.mu-designer-part1::before {
+  position: absolute;
+  content: "";
+  top: -50%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(./../image/designer/second.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -5;
+}
+.mu-designer-part1 h1 {
+  font-size: 48px;
+  color: var(--secondColor);
+  margin-top: -100px;
+}
+.mu-designer-part1 p {
+  font-size: 15px;
+  color: var(--sortcolor);
+  margin-top: -100px;
+}
+.mu-designer-part2 h2 {
+  font-size: 36px;
+}
+.mu-designer-part2 p {
+  font-size: 15px;
+  color: var(--sortcolor);
+}
+.mu-designer-part2 p span {
+  font-weight: 700;
+  color: var(--secondColor);
+}
+
+.info {
+  margin-bottom: 10px;
+}
+
+.label {
+  color: #898da9;
+  width: 100px;
+  display: inline-block;
+}
+.value {
+  color: #fff;
+  display: inline-block;
+}
+.value::before {
+  content: ":";
+  margin-right: 50px;
+  color: #898da9;
+}
+/* mu-desinger end */
+@media (min-width:765px) and (max-width: 890px) {
+  .mu-designer-part1{
+    width: 40%;
+  }
+ .mu-designer-part2{
+  width: 60%;
+ }
+}

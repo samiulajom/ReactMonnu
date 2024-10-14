@@ -1,0 +1,76 @@
+/* navbar start */
+.mu-parentNav {
+  background: var(--maintheme);
+  z-index: 100;
+}
+.mu-parentNav::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  /* background-image: url("./../image/nav/gridShape.png"); */
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -11;
+}
+/* only home page show background image */
+.home-navbar::before {
+  background-image: url("./../image/nav/gridShape.png");
+}
+.page2 .mu-parentNav::before {
+  background-image: none;
+}
+.mu-logo {
+  font-size: 42px;
+  color: #f31e5e;
+  line-height: 52px;
+}
+.mu-logo:hover {
+  color: #f31e5e;
+}
+.mu-navbar {
+  margin: 0 auto;
+}
+.nav-item a {
+  text-transform: capitalize;
+  color: #fff;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.nav-item a:hover {
+  color: var(--maincolor);
+}
+.navbar-nav .nav-link.active {
+  color: var(--secondColor);
+  /* font-weight: 700; */
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.mu-intro a {
+  color: #fff;
+  transition: all 0.3s linear;
+  text-decoration: none;
+}
+.mu-intro a:hover {
+  color: var(--maincolor);
+}
+.navbar-toggler {
+  background-color: white;
+  width: 50px;
+  margin-right: 20px;
+}
+.navbar-toggler:focus {
+  outline: none !important;
+  border: 2px solid red !important;
+}
+
+/* navbar end */

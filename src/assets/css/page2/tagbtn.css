@@ -1,0 +1,17 @@
+.mu-tag-header h3 {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.mu-tag-header button {
+  background-color: #242a58;
+  padding: 10px 50px;
+}
+.mu-tag-header button:hover {
+  background-color: #674df0;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}

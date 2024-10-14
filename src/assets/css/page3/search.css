@@ -1,0 +1,22 @@
+/* search start */
+.search-container {
+  border: 40px solid #171c43;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  color: var(--secondColor);
+}
+.search-input::placeholder {
+  color: var(--sortcolor);
+}
+.search-icon {
+  font-size: 18px;
+  cursor: pointer;
+  background-color: var(--maincolor);
+  padding: 6px 8px;
+}
+/* search area end */

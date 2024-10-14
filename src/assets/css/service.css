@@ -1,0 +1,109 @@
+/* SERVICE SECTION START  */
+.mu-service-section {
+  background: #171c43;
+  /* padding: 60px 0 65px 0; */
+  /* position: relative; */
+}
+
+.service-bg1 {
+  bottom: 10%;
+}
+.service-bg2 {
+  top: 10%;
+}
+.mu-service-section .row {
+  padding: 25px 0px;
+  z-index: 99;
+}
+.mu-service-header div p {
+  font-size: 16px;
+  color: var(--sortcolor);
+}
+.mu-service-header div h2 {
+  font-size: 36px;
+}
+
+.mu-service-item h3 {
+  font-size: 26px;
+}
+.mu-service-item p {
+  font-size: 16px;
+  color:var(--sortcolor);
+}
+
+.mu-service-indicator {
+  width: 70px;
+  height: 70px;
+  padding: 20px;
+  background: rgb(13, 17, 53);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.mu-service-item:hover .mu-service-indicator {
+  background: #f31e5e;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.service-img {
+  position: relative;
+  background-image: url(./../image/services/indicator-1.png);
+  width: 70px;
+  height: 80px;
+  display: block;
+  background-repeat: no-repeat;
+  top: 23px;
+  left: 16px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.mu-service-item:hover .service-img {
+  background-image: url(./../image/services/indicator-2.png);
+}
+
+
+.mu-services > div {
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.mu-services > div:not(:last-child) {
+  border-bottom: 1px solid #303032;
+}
+.mu-services > div:not(:last-child):hover {
+  border-bottom: 2px solid #fff;
+}
+.mu-service-item h3 {
+  position: relative;
+  display: block;
+}
+.mu-service-item:hover h3 {
+  padding-left: 80px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.mu-service-item:hover h3::before {
+  position: absolute;
+  content: "";
+  left: -10px;
+  top: 5px;
+  width: 80px;
+  height: 2px;
+  background-color: #49dc87;
+}
