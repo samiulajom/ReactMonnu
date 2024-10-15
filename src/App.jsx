@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Nav3 from "./components/Nav3";
 import ServicePage from "./pages/ServicePage";
 import BlockPage from "./pages/BlockPage";
-import ContactPage from "./pages/ContactPage"; // Import your Page4 component
+import ContactPage from "./pages/ContactPage"; 
 
 function App() {
   return (
