@@ -30,7 +30,7 @@
 /*! port image */
 
 .mu-port-img {
-   width: 100%;
+  width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -128,5 +128,8 @@
   background-color: var(--secondColor);
 }
 
-
-
+@media (max-width: 360px) {
+  .portfolio-item img {
+    width: 80%;
+  }
+}
