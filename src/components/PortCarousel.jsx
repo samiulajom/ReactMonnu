@@ -1,9 +1,9 @@
 import "./../assets/css/page2/port.css";
-import { gallary } from "./../assets/data/data";
+import { gallary } from "../assets/data/data";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-const Port2 = () => {
+const PortCarousel = () => {
   const option = {
     loop: true,
     margin: 10,
@@ -54,4 +54,4 @@ const Port2 = () => {
   );
 };
 
-export default Port2;
+export default PortCarousel;
