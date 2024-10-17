@@ -1,4 +1,3 @@
-import React from "react";
 import "./../assets/css/testimonial.css";
 import handImg from "./../assets/image/testimonia/testimonial.png";
 import personImg from "./../assets/image/testimonia/testimonial-person.png";

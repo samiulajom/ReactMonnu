@@ -1,4 +1,3 @@
-import React from "react";
 import "./../assets/css/page2/tag.css";
 import arrow1IMG from "./../assets/image/page2/arrow-back.png";
 import arrow2IMG from "./../assets/image/page2/arrow-back2.png";
@@ -17,7 +16,7 @@ const Tag = () => {
               <button className="text-light fs-6 border-0">Idea</button>
             </div>
           </div> */}
-          <TagBtn/>
+          <TagBtn />
           <div className="row mu-tag-carousel">
             <div className="col-12 col-sm-6 d-flex">
               <div className="tag-img me-3 tag-previous">
