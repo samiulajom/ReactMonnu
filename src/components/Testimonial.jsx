@@ -4,6 +4,9 @@ import handImg from "./../assets/image/testimonia/testimonial.png";
 import personImg from "./../assets/image/testimonia/testimonial-person.png";
 import { clicntSay } from "./../assets/data/data";
 const Testimonial = () => {
+  let text = ` "We cannot understand how we lived without the services of
+  your company.It's the perfect solution for creating a cool
+  portfolio! The best AGHT digital agency!"`;
   return (
     <div>
       <section className="mu-testimonial p-5">
@@ -64,18 +67,11 @@ const Testimonial = () => {
 
               <div className="carousel-inner testimonial-carousel ">
                 <div className="carousel-item active text-center">
-                  <p className="text-light fw-medium">
-                    "We cannot understand how we lived without the services of
-                    your company.It's the perfect solution for creating a cool
-                    portfolio! The best AGHT digital agency!"
-                  </p>
+                  <p className="text-light fw-medium">{text}</p>
                 </div>
 
                 {clicntSay.map((item) => (
-                  <div
-                    className="carousel-item text-center '${muActive}'"
-                    key={item.id}
-                  >
+                  <div className="carousel-item text-center " key={item.id}>
                     <p className="text-light fw-medium">{item.comment}</p>
                   </div>
                 ))}

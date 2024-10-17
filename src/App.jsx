@@ -1,12 +1,12 @@
 // import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/js/dist/collapse";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Home from "./pages/Home";
 import Nav3 from "./components/Nav3";
 import ServicePage from "./pages/ServicePage";
 import BlockPage from "./pages/BlockPage";
-import ContactPage from "./pages/ContactPage"; 
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (

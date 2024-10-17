@@ -284,6 +284,11 @@ export const clicntSay = [
     comment:
       '"We cannot understand how we lived without the services \n of your company. It\'s the perfect solution for creating a cool portfolio! The best AGHT digital agency!"',
   },
+  {
+    id: 3,
+    comment:
+      '"We cannot understand how we lived without the services \n of your company. It\'s the perfect solution for creating a cool portfolio! The best AGHT digital agency!"',
+  },
 ];
 //blog
 export const blogs = [
