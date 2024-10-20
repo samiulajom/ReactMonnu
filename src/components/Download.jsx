@@ -1,4 +1,3 @@
-
 import "./../assets/css/download.css";
 const Download = () => {
   return (
@@ -37,7 +36,12 @@ const Download = () => {
                 </p>
               </li>
             </ul>
-           <a href="" className=" btn rounded-0 text-uppercase py-3 px-5 text-light down-btn">Download cv</a>
+            <a
+              href=""
+              className=" btn rounded-0 text-uppercase py-2 px-3 py-md-3 px-md-5 text-light down-btn"
+            >
+              Download cv
+            </a>
           </div>
         </div>
       </div>

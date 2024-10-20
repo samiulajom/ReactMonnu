@@ -20,16 +20,16 @@
 }
 .central-area h2 {
   font-size: 140px;
-  font-weight: 700;
+  font-weight: 700;   
 }
 .central-area h2:first-child {
-  right: 90%;
+  right: 75%;
   top: 15%;
 }
 .central-area h2:last-child {
   top: 50%;
 }
-.mu-hero-bottom .email{
+.mu-hero-bottom .email {
   font-size: 14px;
 }
 @media (max-width: 1024px) {
@@ -60,7 +60,7 @@
     font-size: 30px;
   }
 
-  .mu-hero-bottom .email{
+  .mu-hero-bottom .email {
     font-size: 10px;
   }
 }
