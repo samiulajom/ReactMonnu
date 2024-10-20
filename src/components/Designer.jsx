@@ -26,7 +26,7 @@ const Designer = () => {
                 for the last ten years designing,programming and operating
                 Wordpress sites go beyond with exclusive desingner.
               </p>
-              <div className="designer-details  pt-3">
+              <div className="designer-details  pt-1">
                 <div className="info">
                   <span className="label">Name</span>
                   <span className="value">David Clark</span>

@@ -65,3 +65,8 @@
   width: 60%;
  }
 }
+@media (max-width:360px){
+  .mu-designer{
+    padding: 2%;
+  }
+}

@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./../assets/css/page2/tagbtn.css";
 const TagBtn = () => {
   return (

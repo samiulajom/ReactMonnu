@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./../assets/css/page2/tag.css";
 import arrow1IMG from "./../assets/image/page2/arrow-back.png";
 import arrow2IMG from "./../assets/image/page2/arrow-back2.png";

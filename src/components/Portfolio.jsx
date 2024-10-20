@@ -4,7 +4,7 @@ import Gallery from "./Gallery";
 const Portfolio = () => {
   return (
     <div>
-      <section className="mu-portfolio position relative">
+      <section className="mu-portfolio position-relative">
         <div className="">
           <div className="mu-port-header text-center col-12">
             <p>PORTFOLIO</p>
@@ -23,12 +23,12 @@ const Portfolio = () => {
               View more project
             </a>
           </div>
+          <img
+            src={portImg}
+            alt="portpng"
+            className="mu-portend-img  position-absolute z-3 top-100 translate-middle-y"
+          />
         </div>
-        <img
-          src={portImg}
-          alt="portpng"
-          className="mu-portend-img position-absolute left-0 z-3 translate-middle-y"
-        />
       </section>
     </div>
   );

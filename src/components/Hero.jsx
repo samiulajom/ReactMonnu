@@ -1,4 +1,3 @@
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import bannerImg from "../assets/image/hero/strokcirle.png";
@@ -51,7 +50,7 @@ const Hero = () => {
                 Designer
               </h2>
             </div>
-            <div className="mu-hero-bottom d-flex gap-3 align-items-center position-absolute bottom-0">
+            <div className="mu-hero-bottom d-flex gap-3 align-items-end position-absolute bottom-0 mb-lg-4 mb-2">
               <FontAwesomeIcon icon={faPhone} color="#fff" size="lg" />
               <div>
                 <h3 className="text-dark bg-light  p-1 email">vap@gmail.com</h3>
